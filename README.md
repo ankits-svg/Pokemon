@@ -1,4 +1,11 @@
-1. Listing page
+
+1. Clone this repo         
+       command:- git clone "URL of this repo"
+2. Now install all required dependencies
+        command:- npm i
+3. Now move to the given folder from the terminal via cd
+4. Now start the server using "npm start"
+5. Listing page
 
 
         ○ If the API returns successfully show all the Pokemon that are
@@ -23,7 +30,7 @@
     Mobile
       <img src="https://github.com/masai-course/Ankit_fw19_0178/assets/103572350/34969349-dcfd-4252-b900-091cd5ef4b00" alt="listing"/>
       
-2. ● Details Page
+6. ● Details Page
 
 
         ○ Details screen opens up on tapping on one of the Pokemon on
@@ -41,7 +48,7 @@
       <img src="https://github.com/masai-course/Ankit_fw19_0178/assets/103572350/6e999a05-bcf1-44d3-8bd8-ef4e30c7e5e2" alt="listing"/>
     
 
-3. ● Bookmarks Screen
+7. ● Bookmarks Screen
 
         ○ The bookmark screen shows all the users bookmarked
         Pokemon. This data is stored locally on the phone.
@@ -55,7 +62,7 @@
     <img src="https://github.com/masai-course/Ankit_fw19_0178/assets/103572350/95703df0-2026-41ee-bbde-4d8331712ecf" alt="listing"/>
     <img src="https://github.com/masai-course/Ankit_fw19_0178/assets/103572350/98930b76-5371-4ef8-b2be-411b613dd5b1" alt="listing"/>
 
-5. Search Page
+8. Search Page
 
         -Create a search page that accepts a Pokemon name to search
         for. On hitting search, make an API call to the search endpoint.
