@@ -44,7 +44,7 @@
         ○ Users should be able to remove a Pokemon from bookmarks
         as well.
 
-    <img src="https://github.com/masai-course/Ankit_fw19_0178/assets/103572350/48c4b4e8-cff0-411c-a3c9-616df67a93e4" alt="listing"/>
+    <img src="https://github.com/masai-course/Ankit_fw19_0178/assets/103572350/e271d8bc-b78d-4f1c-abfb-c793aae2537a" alt="listing"/>
     <img src="https://github.com/masai-course/Ankit_fw19_0178/assets/103572350/786313f5-4a58-4592-b3cf-365f95b1ba98" alt="listing"/>
 
 4. Search Page
