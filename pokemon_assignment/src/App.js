@@ -1,13 +1,20 @@
 import React from 'react'
-import {Navbar} from './Components/Navbar'
-import { Box } from '@chakra-ui/react'
-import { Allroutes } from './Components/Allroutes'
+
+import { Box, Heading } from '@chakra-ui/react'
+
+import { Loader } from './Components/Head/Loader'
+import { ListData } from './Components/AllData/ListData'
+import { Booked } from './Components/Head/Booked'
+
 
 export const App = () => {
   return (
     <Box>
-      <Navbar/>
-      {/* <Allroutes/> */}
+      <Loader/>
+      
+      <Booked/>
+     
+      <ListData/>
     </Box>
   )
 }
