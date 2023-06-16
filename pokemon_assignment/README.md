@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+1. Listing page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+        ○ If the API returns successfully show all the Pokemon that are
+        returned in the API on this page.--done
 
-In the project directory, you can run:
+        ○ Navigate to the listing page only after a successful API
+        response. This page should show the images of the movie as
+        well as the title of the movie in a grid format.---doubt
 
-### `npm start`
+        ○ The listing page should be infinite scrollable, as the user
+        scrolls, load more Pokemon using the API. By default, the
+        search API gets 10 items per page.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+        ○ Please make sure the listing page remains functional even
+        after loading a lot of movies when you keep scrolling.
+        ○ Also, provide options to filter the results by abilities,
+        characteristics, group, habitat, location, Species etc.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+        
 
-### `npm test`
+2. ● Details Page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+        ○ Details screen opens up on tapping on one of the Pokemon on
+        the listing screen.
+        ○ Show all the details got by the API in a properly formatted
+        design.
+        ○ Display a bookmark icon, tapping on it should save this
+        Pokemon as a favourite on the device itself.
+        ○ A Pokemon that has been bookmarked should be shown with a
+        prefilled bookmark icon. Clicking on the same icon should
+        remove it from bookmarks.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. ● Bookmarks Screen
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+        ○ The bookmark screen shows all the users bookmarked
+        Pokemon. This data is stored locally on the phone.
+        ○ Users should be able to remove a Pokemon from bookmarks
+        as well.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Search Page
 
-### `npm run eject`
+        -Create a search page that accepts a Pokemon name to search
+        for. On hitting search, make an API call to the search endpoint.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+        -Show a loading when the API is in progress and stop the
+        loading when the API is successful or throws an error. Display
+        the error if there is an error message.
